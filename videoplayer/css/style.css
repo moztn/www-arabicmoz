@@ -1,0 +1,97 @@
+select
+{
+	width: 240px;
+}
+
+#wrapper 
+{ 
+	margin: 0 auto;
+	width: 1168px;
+}
+
+#leftcolumn 
+{ 
+	color: #333;
+	border: 1px solid #ccc;
+	background-color: #F2F2E6;
+	margin: 10px 5px 10px 70px;
+	padding: 10px;
+	height: 368px;
+	width: 548px;
+	float: left;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 12px;
+}
+
+#description 
+{ 
+	color: #333;
+	border: 1px solid #ccc;
+	background-color: #F2F2E6;
+	margin: 10px 5px 10px 70px;
+	padding: 10px;
+	height: 100%;
+	width: 848px;
+	float: left;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 12px;
+}
+
+#rightcolumn 
+{
+	display: inline;
+	position: relative;
+	float: right;
+	color: #666;
+	border: 1px solid #ccc;
+	background-color: #F2F2E6;
+	margin: 10px 210px 10px 0px;
+	padding: 10px;
+	height: 368px;
+	width: 285px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 12px;
+}
+
+#mycustomscroll 
+{
+	list-style: none;
+	height: 348px;
+	overflow: auto;
+	position: relative;
+	background-color: #F2F2E6;
+	margin: 0.3em auto;
+	font-size: 12px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 12px;
+}
+
+
+#mycustomscroll li
+{
+	font-size: 12px;
+	width: 230px;
+	background-color: #333;
+	color: #CCC;
+	padding: 5px;
+	margin: 10px;
+	cursor: pointer;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 12px;
+}
+
+#mycustomscroll a
+{
+	text-decoration: none;
+}
+
+#mycustomscroll a:hover li
+{
+	background-color: #6F7986;
+	color: #FFF;
+}

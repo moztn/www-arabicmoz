@@ -1,0 +1,233 @@
+/*
+ * jQuery Nivo Slider v2.6
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2011, Gilbert Pellegrom
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * March 2010
+ */
+ 
+ 
+/* The Nivo Slider styles */
+.nivoSlider {
+  position:relative;
+}
+.nivoSlider img {
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:100%;
+  height:100%;
+  border:0;
+  padding:0;
+  margin:0;
+  z-index:6;
+  display:none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+  display:block;
+  position:absolute;
+  z-index:5;
+  height:100%;
+}
+.nivo-box {
+  display:block;
+  position:absolute;
+  z-index:5;
+}
+/* Caption styles */
+.nivo-caption {
+  position:absolute;
+  left:0px;
+  bottom:0px;
+  background:#000;
+  color:#fff;
+  opacity:0.8; /* Overridden by captionOpacity setting */
+  width:100%;
+  z-index:8;
+}
+.nivo-caption p {
+  padding:5px;
+  margin:0;
+}
+.nivo-caption a {
+  display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+  position:absolute;
+  top:45%;
+  z-index:9;
+  cursor:pointer;
+}
+.nivo-prevNav {
+  left:0px;
+}
+.nivo-nextNav {
+  right:0px;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav a {
+  position:relative;
+  z-index:9;
+  cursor:pointer;
+}
+.nivo-controlNav a.active {
+  font-weight:bold;
+}
+/*
+Skin Name: WebDesign&Such Theme
+Skin URI: http://webdesignandsuch.com
+Slider URI: http://nivo.dev7studios.com
+Skin Type: fixed
+Description: A happy lil theme for the Nivo Slider.
+Version: 1.0
+Author: Mike Ilsley
+Author URI: http://beantowndesign.com
+*/
+
+.theme-wds.slider-wrapper {
+    background:url(../images/nivo-slider/slider.png) no-repeat 0 0;
+    height:379px;
+    margin:0 auto;
+    padding: 25px;
+    position:relative;
+  margin-left: 100px;
+  margin-right:auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width:800px;
+}
+
+.theme-wds .nivoSlider {
+    position:relative;
+    background:url(../images/nivo-slider/loading.gif) no-repeat 50% 50%;
+}
+.theme-wds .nivoSlider img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+}
+.theme-wds .nivoSlider a {
+    border:0;
+    display:block;
+}
+
+.theme-wds .nivo-controlNav {
+    position:absolute;
+  background:url(../images/nivo-slider/line.png) repeat-x 0 6px;
+  left:50%;
+  bottom:-55px;
+    margin-left:-65px; /* Tweak this to center bullets */
+}
+
+/* bullets */
+
+.theme-wds .nivo-controlNav a {
+    display:block;
+    width:13px;
+    height:14px;
+    background:url(../images/nivo-slider/bullets.png) no-repeat;
+    text-indent:-9999px;
+    border:0;
+    margin-right:15px;
+    float:left;
+}
+
+.theme-wds .nivo-controlNav a:last-child, a.last-child {margin-right:0px}
+
+.theme-wds .nivo-controlNav a.active {
+    background-position:0 -15px;
+}
+
+
+/* arrow buttons */
+
+.theme-wds .nivo-directionNav a {
+  display:block;
+  width:53px;
+  height:53px;
+  background:url(../images/nivo-slider/arrows.png) no-repeat 0 0;
+  text-indent:-9999px;
+  border:0;
+    top:50%;
+}
+.theme-wds a.nivo-nextNav {
+  background-position: -53px 0;
+  right:-4%;
+  padding-left:0px
+    
+}
+.theme-wds a.nivo-prevNav {
+  background-position:0 0px;
+  left:-10%;
+  
+    
+}
+
+.theme-wds a.nivo-prevNav:hover {
+  background-position:0 -53px;
+  
+    
+}
+
+.theme-wds a.nivo-nextNav:hover {
+  background-position:-53px -53px;
+  
+    
+}
+
+
+/* caption */
+
+.theme-wds .nivo-caption {
+     bottom:5%;
+    right:auto;
+    left:0px;
+    width:auto;
+    max-width:630px;
+    overflow:hidden;
+    background:#000;
+    text-shadow:none;
+    font-family: arial, serif;
+    color:#fff;
+  -moz-border-radius-topleft: 0px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -moz-border-radius-bottomleft: 0px;
+  -webkit-border-radius: 0px 10px 10px 0px;
+  border-radius: 0px 10px 10px 0px; 
+}
+.theme-wds .nivo-caption a { 
+    color:#fff;
+    font-weight:bold;
+    font-size:23px;
+    
+}
+.theme-wds .nivo-caption a:hover { 
+    color:#fff;
+}
+
+.theme-wds .nivo-caption p {
+    padding:5px 15px;
+    color:#e5e5e5;
+  text-shadow: 0px 0px 2px #000;
+    font-weight:normal;
+    font-size:23px;
+    
+}
+
+

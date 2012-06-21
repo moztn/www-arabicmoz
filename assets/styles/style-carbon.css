@@ -1,0 +1,34 @@
+/*
+Template Name: Immaculate
+Theme URI: http://www.priteshgupta.com/templates/immaculate
+Description: HTML5 and CSS3 One Page Website Template
+Author: Pritesh Gupta
+Author URI: http://www.priteshgupta.com/
+Version: 1.0
+*/
+
+/* Distributed by http://freehtml5templates.com */
+
+/* Stylesheet For Carbon Theme */
+body { 
+	background: url(../images/bg/bg_carbon.jpg) fixed;
+	color: #fff; 
+}
+.wrapper {
+		background: rgba(0, 0, 0, 0.50);
+}
+
+#feed a
+{
+	color: #fff; 
+	font-size: 30px;
+}
+
+#photos h4 {
+	color: #fff;
+}
+
+.quote p {
+	background: url(assets/images/content/quote_white.png) no-repeat 0 3px; 
+	color: #fff;
+}

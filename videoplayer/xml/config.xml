@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<videos width="548" height="368">
+  
+  <item>
+    <title>Interview with Mitchell Baker</title>    
+    <ogg>http://arabicmoz.mozilla-tunisia.org/videoplayer/xml/mitchell.ogv</ogg>
+    <description><![CDATA[<strong>Interview with Mitchell Baker</strong>During the first mozilla arabic community meetup in Amman, noZom interviewed Mitchell Baker, the Chairperson of Mozilla.]]></description>
+  </item>
+ 
+  <item>
+    <title>Interview with Melek Jebnoun</title>
+    <ogg>http://arabicmoz.mozilla-tunisia.org/videoplayer/xml/melek.ogv</ogg>  
+    <description><![CDATA[<strong>Interview with Melek Jebnoun</strong> An interview with Melek Jebnoun from Mozilla Tunisia team during the first meetup of Arabic Mozilla Community 2011]]></description>
+  </item>
+ 
+  <item>
+    <title>Interview with Pierros Papadeas</title>
+    <ogg>http://arabicmoz.mozilla-tunisia.org/videoplayer/xml/pierros.ogv</ogg>
+    <description><![CDATA[<strong>Interview with Pierros Papadeas</strong>An Interview with Pierros Papadeas of Mozilla, part of the community engagement team after the first Arabic community meetup in Amman - Jordan.]]></description>
+  </item>
+  
+  <item>
+    <title>Interview with Rami Khader</title>
+    <ogg>http://arabicmoz.mozilla-tunisia.org/videoplayer/xml/rami.ogv</ogg>
+    <description><![CDATA[<strong>Interview with Rami Khader</strong>Nozom is interviewing Rami Khader after the mozilla arabic community first meetup in Amman, Jordan.]]></description>
+  </item>
+  
+  <item>
+    <title>Interview with Issa Mahasna</title>
+    <ogg>http://arabicmoz.mozilla-tunisia.org/videoplayer/xml/issa.ogv</ogg>
+    <description><![CDATA[<strong>Interview with Issa Mahasna</strong>Interviewing Issa Mahasna at Arabic Mozilla community meetup in Amman, Jordan..]]></description>
+  </item>
+  
+</videos>
